@@ -28,6 +28,9 @@ module.exports.encodeName = function (name) {
   return encode('@' + name)
 }
 
+
+/** Decode an encoded string
+ * was used to test for another right param: alice */
 module.exports.decodeName = function (name) {
   return decode(name)
 }
@@ -104,5 +107,5 @@ module.exports.findNextMessage = function (inbox, lastHash) {
 
   return result
 
-  //'from: ' + decode(inbox.messages[found].from) + '\n---\n' + decode(fs.readFileSync(path.join(inbox.dir, inbox.messages[found].hash), 'utf8'))
+  //return 'from: ' + decode(inbox.messages[found].from) + '\n---\n' + decode(fs.readFileSync(path.join(inbox.dir, inbox.messages[found].hash), 'utf8'))
 }

@@ -12,6 +12,7 @@ heroku
 ## deveoper challenge
  Challenge
 ====
+> challenge accepted..
 
 Hello Follow the instructions below to get your solution.
 
@@ -66,7 +67,7 @@ send me a zipped file or a github link
 --------
 Challenge package sent can be found in server folder
 
-server.js: This configuration allows the use of express server to serve static files from the ‘dist’ folder in your app.
+server.js: This configuration allows the use of express server to serve static files from the ‘dist’ folder in the app.
 
 package.json edited to include node server.js
 
