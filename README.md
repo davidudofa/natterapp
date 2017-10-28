@@ -2,48 +2,8 @@
 
 > Developer test
 
-## environment Setup
---------
-Challenge package sent can be found in server folder
-
-server.js: This configuration allows the use of express server to serve static files from the ‘dist’ folder in your app.
-
-package.json edited to include node server.js
-
-express router is used in server.js to condition it to api calls
-
-build/dev-server.js requires server/index.js as api
-
-api routes are set in the build/dev-server.js
-
-frontend makes api call to server and listens for result.
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# build for production with minification into dist folder
-npm run build
-
-# run server
-npm start
-
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-
-# build for production and view the bundle analyzer report
-npm run build --report.
-
-
-
-----
-
 ## deveopment requirement
-Challenge
+ Challenge
 ====
 
 Hello Follow the instructions below to get your solution.
@@ -93,3 +53,38 @@ Help
 If you get stuck at any point or think something is not working correctly, please contact `amaka.ndukwu@natterbase.com`.
 submission deadline is thursday 26/10/2017 4pm
 send me a zipped file or a github link
+
+
+# environment Setup
+--------
+Challenge package sent can be found in server folder
+
+server.js: This configuration allows the use of express server to serve static files from the ‘dist’ folder in your app.
+
+package.json edited to include node server.js
+
+express router is used in server.js to condition it to api calls
+
+build/dev-server.js requires server/index.js as api
+
+api routes are set in the build/dev-server.js
+
+frontend makes api call to server and listens for result.
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# build for production with minification into dist folder
+npm run build
+
+# run server
+npm start
+
+
+# serve with hot reload at localhost:8080
+npm run dev
+# build for production and view the bundle analyzer report
+npm run build --report.
